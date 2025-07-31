@@ -2,16 +2,13 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-
+import HomePage from './components/HomePage/homepage';
 function App() {
   return (
     <div>
       <Header />
       
-      <main style={{ padding: '20px' }}>
-        <h2>Chào mừng bạn đến với React App của nhóm 3</h2>
-        <p>Đây là nội dung chính.</p>
-      </main>
+      <HomePage />
       
       <Footer />
     </div>
